@@ -669,16 +669,17 @@
     "criteria": {
       "cooked_porkchop": "2025-05-11 00:54:13 -0300",
       "mutton": "2025-05-11 19:45:57 -0300",
-      "apple": "2025-05-11 01:03:04 -0300",
+      "chicken": "2025-05-18 19:30:26 -0300",
       "golden_apple": "2025-05-11 01:44:06 -0300",
       "bread": "2025-05-11 02:09:19 -0300",
-      "cooked_chicken": "2025-05-11 15:48:38 -0300",
       "rotten_flesh": "2025-05-11 00:59:02 -0300",
       "cookie": "2025-05-14 00:52:59 -0300",
       "cooked_beef": "2025-05-11 00:59:18 -0300",
       "melon_slice": "2025-05-16 19:43:11 -0300",
-      "cooked_salmon": "2025-05-16 21:19:18 -0300",
-      "beetroot": "2025-05-11 19:08:33 -0300"
+      "beetroot": "2025-05-11 19:08:33 -0300",
+      "apple": "2025-05-11 01:03:04 -0300",
+      "cooked_chicken": "2025-05-11 15:48:38 -0300",
+      "cooked_salmon": "2025-05-16 21:19:18 -0300"
     },
     "done": false
   },
@@ -3317,39 +3318,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_granite_stairs": {
-    "criteria": {
-      "has_polished_granite": "2025-05-16 19:32:34 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
-    "criteria": {
-      "has_amethyst_shard": "2025-05-16 19:59:28 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/tinted_glass": {
-    "criteria": {
-      "has_amethyst_shard": "2025-05-16 19:59:28 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/copper_ingot": {
     "criteria": {
       "has_copper_block": "2025-05-16 19:31:04 -0300"
-    },
-    "done": true
-  },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2025-05-16 20:05:37 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_granite_stairs_from_polished_granite_stonecutting": {
-    "criteria": {
-      "has_polished_granite": "2025-05-16 19:32:34 -0300"
     },
     "done": true
   },
@@ -3377,18 +3348,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/spyglass": {
-    "criteria": {
-      "has_amethyst_shard": "2025-05-16 19:59:28 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/amethyst_block": {
-    "criteria": {
-      "has_amethyst_shard": "2025-05-16 19:59:28 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cut_copper": {
     "criteria": {
       "has_copper_block": "2025-05-16 19:31:04 -0300"
@@ -3413,21 +3372,63 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_granite_slab_from_polished_granite_stonecutting": {
-    "criteria": {
-      "has_polished_granite": "2025-05-16 19:32:34 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
     "criteria": {
       "has_copper_block": "2025-05-16 19:31:04 -0300"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite_stairs": {
+    "criteria": {
+      "has_polished_granite": "2025-05-16 19:32:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2025-05-16 19:32:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2025-05-16 19:32:34 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_slab": {
     "criteria": {
       "has_polished_granite": "2025-05-16 19:32:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-05-16 19:59:28 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-05-16 19:59:28 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-05-16 19:59:28 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-05-16 19:59:28 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-05-16 20:05:37 -0300"
     },
     "done": true
   },
@@ -3440,6 +3441,228 @@
   "minecraft:recipes/transportation/rail": {
     "criteria": {
       "has_the_recipe": "2025-05-16 22:40:12 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-05-18 19:09:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_copper": "2025-05-18 20:10:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oxidized_copper_bulb": {
+    "criteria": {
+      "has_oxidized_copper": "2025-05-18 20:10:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2025-05-18 19:38:58 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall": {
+    "criteria": {
+      "has_polished_deepslate": "2025-05-18 19:09:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-05-18 18:28:05 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks": {
+    "criteria": {
+      "has_polished_deepslate": "2025-05-18 19:09:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-05-18 19:09:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab": {
+    "criteria": {
+      "has_polished_deepslate": "2025-05-18 19:09:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_copper": "2025-05-18 20:10:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_copper_grate": {
+    "criteria": {
+      "has_oxidized_copper": "2025-05-18 20:10:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2025-05-18 19:38:58 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2025-05-18 19:38:58 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-05-18 19:09:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-05-18 18:28:05 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper": {
+    "criteria": {
+      "has_oxidized_copper": "2025-05-18 20:10:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-05-18 19:09:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_from_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_copper": "2025-05-18 20:10:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-05-18 19:09:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2025-05-18 20:04:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-05-18 19:45:40 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-05-18 19:09:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2025-05-18 20:01:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-05-18 20:01:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-05-18 19:45:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-05-18 19:09:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2025-05-18 19:38:58 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_chiseled_copper_from_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_copper": "2025-05-18 20:10:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-05-18 19:09:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2025-05-18 19:40:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-05-18 19:09:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_copper_grate_from_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_copper": "2025-05-18 20:10:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_copper": "2025-05-18 20:10:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-05-18 19:45:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-05-18 19:09:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-05-18 19:09:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs": {
+    "criteria": {
+      "has_polished_deepslate": "2025-05-18 19:09:34 -0300"
     },
     "done": true
   },

@@ -693,6 +693,7 @@
       "cooked_chicken": "2025-05-11 15:01:24 -0300",
       "cookie": "2025-05-14 00:49:46 -0300",
       "cooked_mutton": "2025-05-11 02:08:39 -0300",
+      "cooked_cod": "2025-05-18 19:58:59 -0300",
       "sweet_berries": "2025-05-11 14:19:15 -0300",
       "cooked_beef": "2025-05-11 00:59:48 -0300",
       "cooked_salmon": "2025-05-11 01:51:12 -0300"
@@ -1875,15 +1876,82 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2025-05-14 00:47:56 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/trapped_chest": {
     "criteria": {
       "has_tripwire_hook": "2025-05-14 00:56:40 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/food/mushroom_stew": {
+  "minecraft:recipes/misc/book": {
     "criteria": {
-      "has_bowl": "2025-05-14 00:47:56 -0300"
+      "has_paper": "2025-05-18 20:01:09 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-05-18 20:18:36 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-05-18 20:18:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2025-05-18 20:02:56 -0300",
+      "minecraft:sheep": "2025-05-18 20:03:06 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-05-18 20:01:09 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-05-18 20:16:37 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-05-18 20:16:37 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-05-18 20:18:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-05-18 20:16:37 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2025-05-18 20:02:56 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-05-18 20:18:36 -0300"
     },
     "done": true
   },
